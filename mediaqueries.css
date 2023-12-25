@@ -1,0 +1,197 @@
+
+@media screen and (max-width: 2000px){
+    .hamburger-menu{
+        display: none;
+    }
+    .desktop-navbar{
+        display: flex;
+    }
+
+} 
+
+@media screen and (max-width:1500px) {
+    #experience{
+        font-size: 1rem;
+    }
+    #experience h1, h2{
+        font-size: 1.25rem;
+    }
+    .experience-container-element img{
+        width: 20px;
+    }
+}
+
+
+@media screen and (max-width: 1100px) {
+    .desktop-navbar{
+        display: none;
+    }
+    .hamburger-menu{
+        display: flex;
+    }
+    .profile_info{
+        font-size: 1rem;
+        line-height: 3rem;
+        font-weight: 600
+    }
+    
+    .about-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    .about-image{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about div img{
+        margin-right: 0;
+    }
+    
+    #experience{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .experience-section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .experience-container{
+        padding: 0;
+        margin: 0;
+        width: fit-content;
+    }
+
+    .project-container-border{
+        width: 700px;
+        height: 400px;
+    }
+
+    .project-container-border .project-image{
+        width: 500px;
+        height: 300px;
+    }
+
+    .project-btn-container{
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 790px){
+    #profile{
+        display: flex;
+        flex-direction: column;
+    }
+    .profile_info{
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+    .btn-container{
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .project-container-border{
+        width: 500px;
+        height: 300px;
+        padding: 0px;
+    }
+    .project-container-border .project-image{
+        width: 300px;
+        height: 150px;
+        margin: 10px;
+    }
+    .project-btn-container{
+        height: 10px;
+    }
+    .project-btn-container button{
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 690px){
+    .profile_info{
+        font-size: 1rem;
+        line-height: 2rem;
+        font-weight: 600;
+    }
+    .about-content p{
+        font-size: 0.75rem
+    }
+    
+    #about div img{
+        width: 200px;
+        height: 200px;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    .hamburger-menu button{
+        margin-left: 20px;
+        margin-right: 20px;
+    } 
+
+    .section-text-p2{
+        font-size: .75rem;
+        font-weight: 700;
+        font-style: italic;
+    }
+    
+    .about-content{
+        margin:10px auto 0px;
+    }
+
+    .about-content p{
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
+
+    .project-container-border{
+        width: 300px;
+        height: 170px;
+        padding: 50px;
+    } 
+
+    .project-container-border .project-image{
+        width: 200px;
+        height: 100px;
+        margin: 10px;
+    }
+    .project-btn-container{
+        margin: 0;
+        padding: 0;
+        height: 10px;
+    }
+    
+    .project-btn-container button{
+        font-size: .5rem;
+        padding: 8px;
+    }
+
+    .project-btn-container img{
+        width: 15px;
+        height: 15px;
+    }
+    .experience-container-element{
+        gap: 0;
+    }
+
+    footer nav ul{
+        display: flex;
+    }
+    
+    
+}
